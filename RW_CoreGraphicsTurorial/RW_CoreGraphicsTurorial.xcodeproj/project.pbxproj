@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB17A1001CDD3AF50050BA55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17A0FF1CDD3AF50050BA55 /* AppDelegate.swift */; };
+		BB17A1021CDD3AF50050BA55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17A1011CDD3AF50050BA55 /* ViewController.swift */; };
+		BB17A1051CDD3AF50050BA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB17A1031CDD3AF50050BA55 /* Main.storyboard */; };
+		BB17A1071CDD3AF50050BA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB17A1061CDD3AF50050BA55 /* Assets.xcassets */; };
+		BB17A10A1CDD3AF50050BA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB17A1081CDD3AF50050BA55 /* LaunchScreen.storyboard */; };
+		BB17A1151CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17A1141CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.swift */; };
+		BB17A1201CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17A11F1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.swift */; };
+		BB17A1301CDD3D3A0050BA55 /* CoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17A12F1CDD3D3A0050BA55 /* CoolTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB17A1111CDD3AF50050BA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB17A0F41CDD3AF50050BA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB17A0FB1CDD3AF50050BA55;
+			remoteInfo = RW_CoreGraphicsTurorial;
+		};
+		BB17A11C1CDD3AF50050BA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB17A0F41CDD3AF50050BA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB17A0FB1CDD3AF50050BA55;
+			remoteInfo = RW_CoreGraphicsTurorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB17A0FC1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RW_CoreGraphicsTurorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB17A0FF1CDD3AF50050BA55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB17A1011CDD3AF50050BA55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB17A1041CDD3AF50050BA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB17A1061CDD3AF50050BA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB17A1091CDD3AF50050BA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB17A10B1CDD3AF50050BA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB17A1101CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RW_CoreGraphicsTurorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB17A1141CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RW_CoreGraphicsTurorialTests.swift; sourceTree = "<group>"; };
+		BB17A1161CDD3AF50050BA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB17A11B1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RW_CoreGraphicsTurorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB17A11F1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RW_CoreGraphicsTurorialUITests.swift; sourceTree = "<group>"; };
+		BB17A1211CDD3AF50050BA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB17A12F1CDD3D3A0050BA55 /* CoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB17A0F91CDD3AF50050BA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17A10D1CDD3AF50050BA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17A1181CDD3AF50050BA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB17A0F31CDD3AF50050BA55 = {
+			isa = PBXGroup;
+			children = (
+				BB17A0FE1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial */,
+				BB17A1131CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests */,
+				BB17A11E1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests */,
+				BB17A0FD1CDD3AF50050BA55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB17A0FD1CDD3AF50050BA55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB17A0FC1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial.app */,
+				BB17A1101CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.xctest */,
+				BB17A11B1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB17A0FE1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial */ = {
+			isa = PBXGroup;
+			children = (
+				BB17A0FF1CDD3AF50050BA55 /* AppDelegate.swift */,
+				BB17A1011CDD3AF50050BA55 /* ViewController.swift */,
+				BB17A1031CDD3AF50050BA55 /* Main.storyboard */,
+				BB17A1061CDD3AF50050BA55 /* Assets.xcassets */,
+				BB17A1081CDD3AF50050BA55 /* LaunchScreen.storyboard */,
+				BB17A10B1CDD3AF50050BA55 /* Info.plist */,
+				BB17A12F1CDD3D3A0050BA55 /* CoolTableViewController.swift */,
+			);
+			path = RW_CoreGraphicsTurorial;
+			sourceTree = "<group>";
+		};
+		BB17A1131CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB17A1141CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.swift */,
+				BB17A1161CDD3AF50050BA55 /* Info.plist */,
+			);
+			path = RW_CoreGraphicsTurorialTests;
+			sourceTree = "<group>";
+		};
+		BB17A11E1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB17A11F1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.swift */,
+				BB17A1211CDD3AF50050BA55 /* Info.plist */,
+			);
+			path = RW_CoreGraphicsTurorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB17A0FB1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB17A1241CDD3AF50050BA55 /* Build configuration list for PBXNativeTarget "RW_CoreGraphicsTurorial" */;
+			buildPhases = (
+				BB17A0F81CDD3AF50050BA55 /* Sources */,
+				BB17A0F91CDD3AF50050BA55 /* Frameworks */,
+				BB17A0FA1CDD3AF50050BA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RW_CoreGraphicsTurorial;
+			productName = RW_CoreGraphicsTurorial;
+			productReference = BB17A0FC1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB17A10F1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB17A1271CDD3AF50050BA55 /* Build configuration list for PBXNativeTarget "RW_CoreGraphicsTurorialTests" */;
+			buildPhases = (
+				BB17A10C1CDD3AF50050BA55 /* Sources */,
+				BB17A10D1CDD3AF50050BA55 /* Frameworks */,
+				BB17A10E1CDD3AF50050BA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB17A1121CDD3AF50050BA55 /* PBXTargetDependency */,
+			);
+			name = RW_CoreGraphicsTurorialTests;
+			productName = RW_CoreGraphicsTurorialTests;
+			productReference = BB17A1101CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB17A11A1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB17A12A1CDD3AF50050BA55 /* Build configuration list for PBXNativeTarget "RW_CoreGraphicsTurorialUITests" */;
+			buildPhases = (
+				BB17A1171CDD3AF50050BA55 /* Sources */,
+				BB17A1181CDD3AF50050BA55 /* Frameworks */,
+				BB17A1191CDD3AF50050BA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB17A11D1CDD3AF50050BA55 /* PBXTargetDependency */,
+			);
+			name = RW_CoreGraphicsTurorialUITests;
+			productName = RW_CoreGraphicsTurorialUITests;
+			productReference = BB17A11B1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB17A0F41CDD3AF50050BA55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mt. Aden Studios";
+				TargetAttributes = {
+					BB17A0FB1CDD3AF50050BA55 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BB17A10F1CDD3AF50050BA55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BB17A0FB1CDD3AF50050BA55;
+					};
+					BB17A11A1CDD3AF50050BA55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BB17A0FB1CDD3AF50050BA55;
+					};
+				};
+			};
+			buildConfigurationList = BB17A0F71CDD3AF50050BA55 /* Build configuration list for PBXProject "RW_CoreGraphicsTurorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB17A0F31CDD3AF50050BA55;
+			productRefGroup = BB17A0FD1CDD3AF50050BA55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB17A0FB1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial */,
+				BB17A10F1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests */,
+				BB17A11A1CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB17A0FA1CDD3AF50050BA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17A10A1CDD3AF50050BA55 /* LaunchScreen.storyboard in Resources */,
+				BB17A1071CDD3AF50050BA55 /* Assets.xcassets in Resources */,
+				BB17A1051CDD3AF50050BA55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17A10E1CDD3AF50050BA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17A1191CDD3AF50050BA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB17A0F81CDD3AF50050BA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17A1021CDD3AF50050BA55 /* ViewController.swift in Sources */,
+				BB17A1301CDD3D3A0050BA55 /* CoolTableViewController.swift in Sources */,
+				BB17A1001CDD3AF50050BA55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17A10C1CDD3AF50050BA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17A1151CDD3AF50050BA55 /* RW_CoreGraphicsTurorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17A1171CDD3AF50050BA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17A1201CDD3AF50050BA55 /* RW_CoreGraphicsTurorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB17A1121CDD3AF50050BA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB17A0FB1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial */;
+			targetProxy = BB17A1111CDD3AF50050BA55 /* PBXContainerItemProxy */;
+		};
+		BB17A11D1CDD3AF50050BA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB17A0FB1CDD3AF50050BA55 /* RW_CoreGraphicsTurorial */;
+			targetProxy = BB17A11C1CDD3AF50050BA55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB17A1031CDD3AF50050BA55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB17A1041CDD3AF50050BA55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB17A1081CDD3AF50050BA55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB17A1091CDD3AF50050BA55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB17A1221CDD3AF50050BA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB17A1231CDD3AF50050BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB17A1251CDD3AF50050BA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RW_CoreGraphicsTurorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaden.ios.RW-CoreGraphicsTurorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB17A1261CDD3AF50050BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RW_CoreGraphicsTurorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaden.ios.RW-CoreGraphicsTurorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB17A1281CDD3AF50050BA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RW_CoreGraphicsTurorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaden.ios.RW-CoreGraphicsTurorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RW_CoreGraphicsTurorial.app/RW_CoreGraphicsTurorial";
+			};
+			name = Debug;
+		};
+		BB17A1291CDD3AF50050BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RW_CoreGraphicsTurorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaden.ios.RW-CoreGraphicsTurorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RW_CoreGraphicsTurorial.app/RW_CoreGraphicsTurorial";
+			};
+			name = Release;
+		};
+		BB17A12B1CDD3AF50050BA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RW_CoreGraphicsTurorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaden.ios.RW-CoreGraphicsTurorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RW_CoreGraphicsTurorial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BB17A12C1CDD3AF50050BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RW_CoreGraphicsTurorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaden.ios.RW-CoreGraphicsTurorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RW_CoreGraphicsTurorial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB17A0F71CDD3AF50050BA55 /* Build configuration list for PBXProject "RW_CoreGraphicsTurorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17A1221CDD3AF50050BA55 /* Debug */,
+				BB17A1231CDD3AF50050BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB17A1241CDD3AF50050BA55 /* Build configuration list for PBXNativeTarget "RW_CoreGraphicsTurorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17A1251CDD3AF50050BA55 /* Debug */,
+				BB17A1261CDD3AF50050BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB17A1271CDD3AF50050BA55 /* Build configuration list for PBXNativeTarget "RW_CoreGraphicsTurorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17A1281CDD3AF50050BA55 /* Debug */,
+				BB17A1291CDD3AF50050BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB17A12A1CDD3AF50050BA55 /* Build configuration list for PBXNativeTarget "RW_CoreGraphicsTurorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17A12B1CDD3AF50050BA55 /* Debug */,
+				BB17A12C1CDD3AF50050BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB17A0F41CDD3AF50050BA55 /* Project object */;
+}

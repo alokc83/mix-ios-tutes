@@ -482,6 +482,7 @@
 				BB1BB8BE1CC128F00059A737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB1BB8BF1CC128F00059A737 /* Build configuration list for PBXNativeTarget "testConstraintsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				BB1BB8C11CC128F00059A737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB1BB8C21CC128F00059A737 /* Build configuration list for PBXNativeTarget "testConstraintsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +500,7 @@
 				BB1BB8C41CC128F00059A737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

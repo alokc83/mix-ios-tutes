@@ -9,24 +9,25 @@
 import UIKit
 import QuartzCore
 
+
 class RangeSlider: UIControl {
 
-    var minimunValue: Double = 0.0 {
+@IBInspectable var minimunValue: Double = 0.0 {
         didSet {
             updateLayerFrames()
         }
     }
-    var maximumValue: Double = 1.0 {
+@IBInspectable var maximumValue: Double = 1.0 {
         didSet {
             updateLayerFrames()
         }
     }
-    var lowerValue: Double = 0.2 {
+@IBInspectable var lowerValue: Double = 0.2 {
         didSet {
             updateLayerFrames()
         }
     }
-    var upperValue: Double = 0.8 {
+@IBInspectable var upperValue: Double = 0.8 {
         didSet {
             updateLayerFrames()
         }
@@ -39,24 +40,24 @@ class RangeSlider: UIControl {
     let upperThumbLayer = RangeSliderThumbLayer()
     
     //MARK: Looks and Feel
-    var trackTintColor: UIColor = UIColor(white: 0.9, alpha: 1.0) {
+@IBInspectable var trackTintColor: UIColor = UIColor(white: 0.9, alpha: 1.0) {
         didSet {
             trackLayer.setNeedsDisplay()
         }
     }
-    var trackHighlightTintColor: UIColor = UIColor(red: 0.0, green: 0.45, blue: 0.94, alpha:  1.0) {
+@IBInspectable var trackHighlightTintColor: UIColor = UIColor(red: 0.0, green: 0.45, blue: 0.94, alpha:  1.0) {
         didSet {
             trackLayer.setNeedsDisplay()
         }
     }
-    var thumbTintColor: UIColor = UIColor.whiteColor() {
+@IBInspectable var thumbTintColor: UIColor = UIColor.whiteColor() {
         didSet {
             lowerThumbLayer.setNeedsDisplay()
             upperThumbLayer.setNeedsDisplay()
         }
     }
     
-    var curvaceousness: CGFloat = 1.0 {
+@IBInspectable var curvaceousness: CGFloat = 1.0 {
         didSet {
             trackLayer.setNeedsDisplay()
             lowerThumbLayer.setNeedsDisplay()
@@ -64,7 +65,7 @@ class RangeSlider: UIControl {
         }
     }
     
-    var thumbWidth: CGFloat {
+@IBInspectable var thumbWidth: CGFloat {
         return CGFloat(bounds.height)
     }
     
